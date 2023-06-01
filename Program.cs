@@ -10,7 +10,7 @@
             Employee spongeBob = new Employee("SpongeBob", "SquarePants", "Fry Cook", new DateTime());
             Console.WriteLine($"{spongeBob.FirstName} {spongeBob.LastName} is a {spongeBob.Title}.");
 
-            Employee mrKrabs = new Employee("Mr.", "Krabs", "Restaurateur", new DateTime());
+            Employee mrKrabs = new Employee("Eugene", "Krabs", "Restaurateur", new DateTime());
             Console.WriteLine($"{mrKrabs.FirstName} {mrKrabs.LastName} is a {mrKrabs.Title}");
 
             // Assign the employees to the company
